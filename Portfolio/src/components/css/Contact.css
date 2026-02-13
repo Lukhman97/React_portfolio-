@@ -1,0 +1,60 @@
+/* ===================== CONTACT SECTION ===================== */
+
+.contact-section {
+  padding: 100px 40px;
+  background: #f4f6f9;
+  text-align: center;
+}
+
+/* Title underline already reused from section-title */
+
+/* Container */
+.contact-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Contact Card */
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 35px;
+  background: #ffffff;
+  border-radius: 14px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a2e;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.4s ease;
+}
+
+/* Icon */
+.contact-icon {
+  font-size: 22px;
+  color: #e94560;
+}
+
+/* Hover Effect */
+.contact-card:hover {
+  transform: translateY(-8px);
+  background: linear-gradient(90deg, #e94560, #ff8aa2);
+  color: white;
+  box-shadow: 0 15px 35px rgba(233, 69, 96, 0.4);
+}
+
+.contact-card:hover .contact-icon {
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-card {
+    width: 100%;
+    justify-content: center;
+  }
+}

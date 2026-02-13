@@ -1,0 +1,60 @@
+/* ===================== RESUME SECTION ===================== */
+
+.resume-section {
+  padding: 100px 40px;
+  background: linear-gradient(135deg, #162447, #1f4068);
+  text-align: center;
+  color: white;
+}
+
+/* Title reuse */
+.resume-section .section-title {
+  color: white;
+}
+
+/* Container */
+.resume-container {
+  margin-top: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeUp 1s ease;
+}
+
+/* Text */
+.resume-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+/* Button */
+.resume-btn {
+  display: inline-block;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #e94560, #ff8aa2);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(233, 69, 96, 0.4);
+}
+
+/* Animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
