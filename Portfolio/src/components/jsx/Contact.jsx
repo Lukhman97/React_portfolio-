@@ -1,7 +1,13 @@
 import React from "react";
 import "../css/Contact.css";
-import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
-
+// import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaLinkedin,
+  FaGithub,
+  FaCode
+} from "react-icons/fa";
+import { SiLeetcode, SiCodechef } from "react-icons/si";
 function Contact() {
   return (
     <section id="contact" className="contact-section">
@@ -36,6 +42,24 @@ function Contact() {
           <FaGithub className="contact-icon" />
           <span>GitHub</span>
         </a>
+        <a
+  href="https://leetcode.com/u/shaik_Lukhman/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="contact-card"
+>
+  <SiLeetcode className="contact-icon" />
+  <span>LeetCode</span>
+</a>
+<a
+  href="https://www.codechef.com/users/lukhman_shaik"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="contact-card"
+>
+  <SiCodechef className="contact-icon" />
+  <span>CodeChef</span>
+</a>
 
       </div>
     </section>
