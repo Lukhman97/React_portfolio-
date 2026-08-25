@@ -59,7 +59,7 @@ function Projects() {
       links: [
         {
           label: "🌐 Live Demo",
-          url: "https://lukhman97.github.io/My_Portfoilo_Website/lukhman6.html"
+          url: "https://react-portfolio-three-roan.vercel.app/"
         },
         {
           label: "💻 Code",
